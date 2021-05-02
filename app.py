@@ -25,7 +25,5 @@ longformat = pd.melt(df, id_vars = ['CONCELHO','LAT','LONG'],
 
 # Optional - Write to CSV the resulting format 
 
-longformat.to_csv('longformat_csv.csv')
-
-
+longformat.to_csv('longformat_csv.csv', index=False)
 	
